@@ -23,21 +23,6 @@ p {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
-/*
-aside {
-	width: 20%;
-	min-height: 100%;
-	position: fixed;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #6ecadc;
-}
-main {
-	margin-left: 20%;
-}
-*/
-
 body {
 	position: absolute;
 	top: 0;
@@ -115,43 +100,24 @@ main section > div {
 }
 .education_details {
 	margin-top: 1rem;
+	list-style-position: inside;
 }
-.company_details {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	border-bottom: 2px dashed #aaa;
-}
-.company_details span {
-	color: #666;
-}
-.skill_info li {
+.company_details li, .skill_info li {
 	padding: 0.5rem;
 	list-style-position: inside;
 }
 .copyright p {
 	color: #666;
+	font-size: 0.8rem;
 	text-align: center;
 	padding-top: 3rem;
 }
 
 @media (max-width: 768px) {
-/*	aside {
-		width: 100%;
-		padding: 1rem;
-		position: static;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: flex-start;
-	}
-	main {
-		margin-left: 0;
-	}*/
 	body {
 		display: block;
 	}
 	aside {
-		/*width: 100%;*/
 		padding: 1rem;
 		flex-direction: row;
 		justify-content: space-between;
@@ -180,10 +146,10 @@ main section > div {
 	[class^=clr] {
 		width: 100%;
 	}
-	.skill_info ul {
+	.company_details ul, .skill_info ul {
 		padding-left: 5px;
 	}
-	.skill_info li {
+	.company_details li, .skill_info li {
 		list-style-position: outside;
 		padding-left: 0;
 	}
@@ -219,9 +185,9 @@ main section > div {
 					<p>民族 | 汉</p>
 				</article>
 				<article>
-					<p>籍&nbsp;&nbsp;&nbsp;&nbsp;贯 | 湖南双峰</p>
-					<p>出生年月 | 1988.1</p>
-					<p>婚姻状况 | 已婚</p>
+					<p>籍贯 | 湖南双峰</p>
+					<p>生日 | 1988.1</p>
+					<p>婚否 | 已婚</p>
 				</article>
 			</div>
 		</section>
@@ -253,20 +219,12 @@ main section > div {
 		<section class="company">
 			<h3 class="clr3">工作经历 <span>Previous Employment</span></h3>
 			<div class="company_details">
-				<h4>康普药业股份有限公司 <span>2010.5-2011.5</span></h4>
-				<p class="cmpny1">在湖北黄冈从事市场的开发、维护</p>
-			</div>
-			<div class="company_details">
-				<h4>江西百神药业股份有限公司 <span>2011.5-2014.3</span></h4>
-				<p class="cmpny1">负责湖南娄底市分销商及各大小终端客户的开发、维护工作</p>
-			</div>
-			<div class="company_details">
-				<h4>华润怡宝饮料(中国)有限公司湖南分公司 <span>2014.5-2015.12</span></h4>
-				<p class="cmpny1">娄底市场业务员</p>
-			</div>
-			<div class="company_details">
-				<h4>经营空调安装维修 <span>2016.3-2019.4</span></h4>
-				<p class="cmpny1">在双峰经营空调安装维修</p>
+				<ul>
+					<li>2016.3-2019.4 在双峰经营空调安装维修</li>
+	        <li>2014.5-2015.12 华润怡宝饮料(中国)有限公司湖南分公司 业务员</li>
+					<li>2011.5-2014.3 江西百神药业股份有限公司 业务员</li>
+					<li>2010.5-2011.5 康普药业股份有限公司 业务员</li>
+				</ul>
 			</div>
 		</section>
 		<section class="assessment">
