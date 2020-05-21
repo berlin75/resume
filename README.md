@@ -20,23 +20,31 @@
 
 ### 专业技能
 
+  * 熟练掌握HTML、CSS、JavaScript、jQuery、BootStrap，熟悉浏览器兼容技术和前端性能优化
+  * 熟悉Taro框架开发多端统一的前端项目，熟悉微信小程序开发、react，了解vue.js
+  * 熟练掌握PHP、ThinkPHP、swoole、workerman、dedeCMS，熟悉面向对象编程、性能优化和安全优化
+  * 熟悉Node.js、Express框架、koa框架
+  * 熟悉Python、Django框架、Flask框架、Scrapy爬虫框架
+  * 数据库：MySQL、Redis、MongoDb、SQLite，熟悉数据库的优化
+  * 熟悉liunx开发环境、docker容器技术
+  * 熟悉Git版本管理、webpack、VsCode、Sublime等相关开发工具
   * 2008年12月通过全国英语等级考试四级考试
   * 2009年9月通过全国计算机二级考试
-  * 熟练掌握HTML、CSS、JavaScript、jQuery、BootStrap，熟悉浏览器兼容技术和前端性能优化
-  * 熟练掌握PHP、ThinkPHP、swoole、workerman、dedeCMS，熟悉面向对象编程、性能优化和安全优化
-  * 掌握Node.js、Express框架、koa框架
-  * 掌握Python、Django框架、Flask框架、Scrapy爬虫框架
-  * 数据库：MySQL、Redis、MongoDb、SQLite，熟悉数据库的优化
-  * 熟悉liunx开发环境、docker容器技术、熟练搭建LNMP/LAMP开发环境,掌握微信小程序、APP接口开发，了解vue.js
-  * 熟悉Git版本管理、webpack、Sublime、PhotoShop等相关开发工具
-  * 注重并能遵守代码规范，代码风格良好，希望代码更加优雅，渴望挑战
 
 ### 工作经验
 
-  * 2016.3-2019.4 在双峰经营空调安装维修
-  * 2014.5-2015.12 华润怡宝饮料(中国)有限公司湖南分公司 业务员
-  * 2011.5-2014.3 江西百神药业股份有限公司 业务员
-  * 2010.5-2011.5 康普药业股份有限公司 业务员
+  <ul>
+    <li style="list-style: none;">
+      <p><b>2019.12-2020.5 湖南聚匠信息科技有限公司 前端开发</b></p>
+      <p>参与项目：</p>
+      <ul>
+        <li>经纪人主播管理系统</li>
+        <li>购物商城</li>
+      </ul>
+      <p>相关技术：</p>
+      <p style="text-indent: 2rem;">taro、react、redux、javascript、css、scss</p>
+    </li>
+  </ul>
 
 ### 教育经历
 
