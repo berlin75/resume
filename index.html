@@ -9,70 +9,70 @@
 <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <style>
 body,h1,h2,h3,h4,h5,h6,header,main,footer,section,aside,article,dl,dd,dt,ul,li{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 body,html{
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 a:hover {
-	color: red;
+  color: red;
 }
 p {
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 body {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	display: flex;
-	color: #3c3c3c;
-	-webkit-font-smoothing: antialiased;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  color: #3c3c3c;
+  -webkit-font-smoothing: antialiased;
 }
 aside {
-	flex: 0 0 20%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #6ecadc;
+  flex: 0 0 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6ecadc;
 }
 main {
-	overflow: auto;
+  overflow: auto;
 }
 .aside_top img {
-	border: 2px solid #fff;
-	-webkit-border-radius: 50%;
+  border: 2px solid #fff;
+  -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-	border-radius: 50%;
-	padding: .5rem;
-	max-width: 125px;
-	margin-top: 1rem;
+  border-radius: 50%;
+  padding: .5rem;
+  max-width: 125px;
+  margin-top: 1rem;
 }
 .aside_details {
-	margin-top: 3rem;
-	color: #fff;
+  margin-top: 3rem;
+  color: #fff;
 }
 .aside_details li {
-	list-style: none;
-	padding: 0.5rem;
+  list-style: none;
+  padding: 0.5rem;
 }
 .aside_details li:nth-child(1) {
-	font: 1.5rem bold;
+  font: 1.5rem bold;
 }
 .main_top {
-	list-style: none;
-	display: flex;
+  list-style: none;
+  display: flex;
 }
 .main_top li {
-	padding: 0.5rem 2rem;
+  padding: 0.5rem 2rem;
 }
 main section > div {
-	margin-left: 2rem;
-	margin-right: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .clr0{background-color: #6ecadc;}
@@ -82,163 +82,171 @@ main section > div {
 .clr4{background-color: #05173B;}
 
 [class^=clr] {
-	width: 40%;
-	padding: 0.5rem;
-	color: #fff;
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
-	margin: 0.5rem 0;
+  width: 40%;
+  padding: 0.5rem;
+  color: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 0.5rem 0;
 }
 [class^=clr] span {
-	font-size: 0.8em;
+  font-size: 0.8em;
 }
 .about_details {
-	display: flex;
+  display: flex;
 }
 .about_details article {
-	margin-right: 2rem;
+  margin-right: 2rem;
 }
 .education_details {
-	margin-top: 1rem;
-	list-style-position: inside;
+  margin-top: 1rem;
+  list-style-position: inside;
 }
 .company_details li, .skill_info li {
-	padding: 0.5rem;
-	list-style-position: inside;
+  padding: 0.5rem;
+  list-style-position: inside;
 }
 .copyright p {
-	color: #666;
-	font-size: 0.8rem;
-	text-align: center;
-	padding-top: 3rem;
+  color: #666;
+  font-size: 0.8rem;
+  text-align: center;
+  padding-top: 3rem;
 }
 
 @media (max-width: 768px) {
-	body {
-		display: block;
-	}
-	aside {
-		padding: 1rem;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: flex-start;
-	}
-	.aside_top img {
-		margin-top: 0;
-	}
-	.aside_details {
-		margin-top: 0;
-		align-self: flex-end;
-	}
-	.aside_details li {
-		padding: 0.3rem;
-	}
-	.about {
-		margin-top: 2px;
-	}
-	main section > div {
-		margin-left: 1rem;
-		margin-right: 1rem;
-	}
-	.main_top {
-		display: none;
-	}
-	[class^=clr] {
-		width: 100%;
-	}
-	.company_details ul, .skill_info ul {
-		padding-left: 5px;
-	}
-	.company_details li, .skill_info li {
-		list-style-position: outside;
-		padding-left: 0;
-	}
+  body {
+    display: block;
+  }
+  aside {
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .aside_top img {
+    margin-top: 0;
+  }
+  .aside_details {
+    margin-top: 0;
+    align-self: flex-end;
+  }
+  .aside_details li {
+    padding: 0.3rem;
+  }
+  .about {
+    margin-top: 2px;
+  }
+  main section > div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .main_top {
+    display: none;
+  }
+  [class^=clr] {
+    width: 100%;
+  }
+  .company_details ul, .skill_info ul {
+    padding-left: 5px;
+  }
+  .company_details li, .skill_info li {
+    list-style-position: outside;
+    padding-left: 0;
+  }
 }
 
 </style>
 </head>
 <body>
-	<aside>
-		<div class="aside_top">
-			<img src="avt.jpg"/>
-		</div>
-		<ul class="aside_details">
-			<li>李柏林</li>
-			<li><i class="fa fa-phone"></i> 15107384435</li>
-			<li><i class="fa fa-envelope-o"></i> 465137869@qq.com</a></li>
-			<li><i class="fa fa-location-arrow"></i> 长沙市岳麓区</li>
-		</ul>
+  <aside>
+    <div class="aside_top">
+      <img src="avt.jpg"/>
+    </div>
+    <ul class="aside_details">
+      <li>李柏林</li>
+      <li><i class="fa fa-phone"></i> 15107384435</li>
+      <li><i class="fa fa-envelope-o"></i> 465137869@qq.com</a></li>
+      <li><i class="fa fa-location-arrow"></i> 长沙市岳麓区</li>
+      <li><i class="fa fa-github"></i> <a href="https://github.com/berlin75/" style="text-decoration: none;color:#fff;">https://github.com/berlin75/</a></li>
+    </ul>
 
-	</aside>
+  </aside>
 
-	<main>
-		<ul class="main_top">
-			<li><a href="liberlin.doc" download="李柏林的简历.doc"><i class="fa fa-download""></i> 下载</a></li>
-			<li><a href="#" onclick="print();return false"><i class="fa fa-print"></i> 打印</a></li>
-		</ul>
-		<section class="about">
-			<h3 class="clr0">个人信息 <span>Personal Information</span></h3>
-			<div class="about_details">
-				<article>
-					<p>姓名 | 李柏林</p>
-					<p>性别 | 男</p>
-					<p>民族 | 汉</p>
-				</article>
-				<article>
-					<p>籍贯 | 湖南双峰</p>
-					<p>生日 | 1988.1</p>
-					<p>婚否 | 已婚</p>
-				</article>
-			</div>
-		</section>
-		<section class="skills">
-			<h3 class="clr1">专业技能 <span>Professional Skills</span></h3>
-			<div class="skill_info">
-				<ul>
-					<li>2008年12月通过全国英语等级考试四级考试</li>
-					<li>2009年9月通过全国计算机二级考试</li>
-					<li>熟练掌握HTML、CSS、JavaScript、jQuery、BootStrap，熟悉浏览器兼容技术和前端性能优化</li>
-					<li>熟练掌握PHP、ThinkPHP、swoole、workerman、dedeCMS，熟悉面向对象编程、性能优化和安全优化</li>
-					<li>掌握Node.js、Express框架、koa框架</li>
-					<li>掌握Python、Django框架、Flask框架、Scrapy爬虫框架</li>
-					<li>数据库：MySQL、Redis、MongoDb、SQLite，熟悉数据库的优化</li>
-					<li>熟悉liunx开发环境、docker容器技术,掌握微信小程序开发，了解vue.js</li>
-					<li>熟悉Git版本管理、webpack、Sublime、PhotoShop等相关开发工具</li>
-				</ul>
-			</div>
-		</section>
-		<section class="education">
-			<h3 class="clr2">教育背景 <span>Educational Background</span></h3>
-			<div class="education_details">
-				 <h4>湖南科技职业学院</h4>
-				 <p>学历：大专</p>
-				 <p>专业：生化制药</p>
-				 <p>毕业年份：2010年6月</p>
-			</div>
-		</section>
-		<section class="company">
-			<h3 class="clr3">工作经历 <span>Previous Employment</span></h3>
-			<div class="company_details">
-				<ul>
-					<li>2016.3-2019.4 在双峰经营空调安装维修</li>
-	        <li>2014.5-2015.12 华润怡宝饮料(中国)有限公司湖南分公司 业务员</li>
-					<li>2011.5-2014.3 江西百神药业股份有限公司 业务员</li>
-					<li>2010.5-2011.5 康普药业股份有限公司 业务员</li>
-				</ul>
-			</div>
-		</section>
-		<section class="assessment">
-			<h3 class="clr4">自我评价 <span>Self Assessment</span></h3>
-			<div>
-				<p>2016年开始自学前端和后端，有较强的学习、动手能力和探索精神，喜欢新鲜事物，勤于折腾和学习新技术，能快速接受使用新知识。</p>
-				<p>喜欢计算机互联网，爱逛技术社区，研究开源项目。具备独立的分析和解决问题的能力和自我管理能力，有强烈的责任心，具有良好的沟通表达和团队意识</p>
-				<p>对工作认真负责并保持应有的激情，抗压和适应能力强，乐于总结并尽可能弥补自己不足，同时稳定地提高自己的工作能力，与公司同步发展。</p>
-			</div>
-		</section>
-		<section class="copyright">
-			<p>© 2019 Berlin Li All Rights Reseverd </p>
-		</section>
-	</main>
+  <main>
+    <ul class="main_top">
+      <li><a href="liberlin.doc" download="李柏林的简历.doc"><i class="fa fa-download""></i> 下载</a></li>
+      <li><a href="#" onclick="print();return false"><i class="fa fa-print"></i> 打印</a></li>
+    </ul>
+    <section class="about">
+      <h3 class="clr0">个人信息 <span>Personal Information</span></h3>
+      <div class="about_details">
+        <article>
+          <p>姓名 | 李柏林</p>
+          <p>性别 | 男</p>
+          <p>民族 | 汉</p>
+        </article>
+        <article>
+          <p>籍贯 | 湖南双峰</p>
+          <p>生日 | 1988.1</p>
+          <p>婚否 | 已婚</p>
+        </article>
+      </div>
+    </section>
+    <section class="skills">
+      <h3 class="clr1">专业技能 <span>Professional Skills</span></h3>
+      <div class="skill_info">
+        <ul>
+          <li>熟练掌握HTML、CSS、JavaScript、jQuery、BootStrap，熟悉浏览器兼容技术和前端性能优化</li>
+          <li>熟悉Taro框架开发多端统一的前端项目，熟悉微信小程序开发、react，了解vue.js</li>
+          <li>熟练掌握PHP、ThinkPHP、swoole、workerman、dedeCMS，熟悉面向对象编程、性能优化和安全优化</li>
+          <li>熟悉Node.js、Express框架、koa框架</li>
+          <li>熟悉Python、Django框架、Flask框架、Scrapy爬虫框架</li>
+          <li>数据库：MySQL、Redis、MongoDb、SQLite，熟悉数据库的优化</li>
+          <li>熟悉liunx开发环境、docker容器技术</li>
+          <li>熟悉Git版本管理、webpack、VsCode、Sublime等相关开发工具</li>
+          <li>2008年12月通过全国英语等级考试四级考试</li>
+          <li>2009年9月通过全国计算机二级考试</li>
+        </ul>
+      </div>
+    </section>
+    <section class="company">
+      <h3 class="clr2">工作经历 <span>Previous Employment</span></h3>
+      <div class="company_details">
+        <ul>
+          <li style="list-style: none;">
+            <p><b>2019.12-2020.5 湖南聚匠信息科技有限公司 前端开发</b></p>
+            <p>参与项目：</p>
+            <ul>
+              <li>经纪人主播管理系统</li>
+              <li>购物商城</li>
+            </ul>
+            <p>相关技术：</p>
+            <p style="text-indent: 2rem;">taro、react、redux、javascript、css、scss</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="education">
+      <h3 class="clr3">教育背景 <span>Educational Background</span></h3>
+      <div class="education_details">
+         <h4>湖南科技职业学院</h4>
+         <p>学历：大专</p>
+         <p>专业：生化制药</p>
+         <p>毕业年份：2010年6月</p>
+      </div>
+    </section>
+    <section class="assessment">
+      <h3 class="clr4">自我评价 <span>Self Assessment</span></h3>
+      <div>
+        <p>2016年开始自学前端和后端，有较强的学习、动手能力和探索精神，喜欢新鲜事物，勤于折腾和学习新技术，能快速接受使用新知识。</p>
+        <p>喜欢计算机互联网，爱逛技术社区，研究开源项目。具备独立的分析和解决问题的能力和自我管理能力，有强烈的责任心，具有良好的沟通表达和团队意识</p>
+        <p>对工作认真负责并保持应有的激情，抗压和适应能力强，乐于总结并尽可能弥补自己不足，同时稳定地提高自己的工作能力，与公司同步发展。</p>
+      </div>
+    </section>
+    <section class="copyright">
+      <p>© 2019 Berlin Li All Rights Reseverd </p>
+    </section>
+  </main>
 
 <script src="https://code.jquery.com/jquery.js"></script>
 </body>
