@@ -21,7 +21,7 @@
 ### 专业技能
 
   * 熟练掌握HTML、CSS、JavaScript、jQuery、BootStrap，熟悉浏览器兼容技术和前端性能优化
-  * 熟悉Taro框架开发多端统一的前端项目，熟悉微信小程序开发、react，了解vue.js
+  * 熟悉Taro框架开发多端统一的前端项目，熟悉微信小程序开发、react、vue.js
   * 熟练掌握PHP、ThinkPHP、swoole、workerman、dedeCMS，熟悉面向对象编程、性能优化和安全优化
   * 熟悉Node.js、Express框架、koa框架
   * 熟悉Python、Django框架、Flask框架、Scrapy爬虫框架
