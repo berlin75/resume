@@ -39,6 +39,12 @@
   * 购物商城
         
   相关技术：taro、react、redux、javascript、css、scss
+  
+  PHP项目经历
+  
+  使用ThinkPHP5.1开发前后端分离的博客类CMS
+  
+  功能模块：rbac权限管理，JWT、无限极分类，评论管理、mysql数据库备份还原、数据字典、文件上传、发送邮件等
 
 ### 教育经历
 
